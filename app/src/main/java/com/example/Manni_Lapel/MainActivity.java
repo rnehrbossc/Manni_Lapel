@@ -201,7 +201,7 @@ public class MainActivity extends Activity {
         Toast.makeText(MainActivity.this, source.length()+"", Toast.LENGTH_SHORT).show();
 
 
-        //Gets the files to lookat:
+        //Gets the files to lookat: z
         String filepath = Environment.getExternalStorageDirectory().getPath();
         File file = new File(filepath,AUDIO_RECORDER_FOLDER);
 
